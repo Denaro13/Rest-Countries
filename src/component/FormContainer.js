@@ -1,5 +1,3 @@
-import { Form } from "react-router-dom";
-import { useGlobalContext } from "./context";
 import SearchForm from "./SearchForm";
 import FilterForm from "./FilterForm";
 

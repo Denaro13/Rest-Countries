@@ -1,6 +1,5 @@
-import { useEffect, useState } from "react";
 import CountryCard from "./CountryCard";
-import { useGlobalContext } from "./context";
+
 const Countries = ({ countries }) => {
   // const { isDarkTheme, data } = useGlobalContext();
   // console.log(countries);

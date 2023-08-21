@@ -2,7 +2,7 @@ import axios from "axios";
 import { useLoaderData } from "react-router-dom";
 import Countries from "../component/Countries";
 import FormContainer from "../component/FormContainer";
-import { useGlobalContext } from "../component/context";
+
 import { useState } from "react";
 
 const allCountries = "https://restcountries.com/v3.1/";
@@ -21,7 +21,7 @@ export const loader = async ({ request }) => {
   };
 };
 const Landing = () => {
-  const { countries, status, value } = useLoaderData();
+  const { countries } = useLoaderData();
   // console.log(status);
   // const { filteredData, setFilteredData } = useGlobalContext();
   const [region, setRegion] = useState("all");

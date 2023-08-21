@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
 import { useGlobalContext } from "./context";
 

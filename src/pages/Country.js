@@ -17,9 +17,9 @@ const Country = () => {
   const img = country.flags.svg;
   const alt = country.flags.alt;
   const domain = country.tld[0];
-  const languages = country.languages;
+  // const languages = country.languages;
   const borders = country.borders;
-  const nativeName = country.name.nativeName;
+  // const nativeName = country.name.nativeName;
 
   return (
     <div>
